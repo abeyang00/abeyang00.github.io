@@ -36,7 +36,7 @@ avatar: "/img/bio-photo.PNG"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: "/img/alcohol.jpg"
 
 # --- Background colour/image options --- #
 
