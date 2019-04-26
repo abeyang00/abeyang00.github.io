@@ -4,6 +4,7 @@ title: Intro to Markdown
 subtitle: Minimum knowledge requirement
 image: /img/markdown.png
 tags: [markdown]
+comments: true
 ---
 
 ### 기본 설정
