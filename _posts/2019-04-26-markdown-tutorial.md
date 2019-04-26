@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown을 사용할 때 필요한 최소한의 지식
+image: /img/markdown.png
 ---
 
 ### Italics and Bold
