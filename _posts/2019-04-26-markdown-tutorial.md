@@ -8,7 +8,7 @@ title: Markdown을 사용할 때 필요한 최소한의 지식
   - Writing is _not_ hard
 - Bold를 사용하고 싶으면 두 개의 asterisks(**)로 단어를 surround 시켜주면 된다.
   - Writing is **not** hard
-- Bold와 Italics를 동시에 주고싶다면 **_단어_** 를 사용해주면 된다.
+- Bold와 Italics를 동시에 주고싶다면 **_ 단어 _** 를 사용해주면 된다.
   - Writing is **_not_** hard
 
 ### Headers
@@ -40,7 +40,7 @@ Here is [the website for you][another fun place]!
 
 이미지를 만드는것도 링크랑 동일하게 두가지의 방법이 있다. 링크랑 다른점은 느낌표[!] 를 bracket ([ ])으로 wrap해줄 단어앞에 사용해 준다는것이다
 1. _inline image link_
-  - ![이미지를 설명하는 단어](이미지가 있는 링크)
+  - ![이미지를 설명하는 단어] (이미지가 있는 링크)
 ![A representation of Octdrey Catburn](https://octodex.github.com/images/bannekat.png)
 
 ### Blockquotes
