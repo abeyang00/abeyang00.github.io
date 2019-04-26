@@ -9,7 +9,7 @@ image: /img/markdown.png
 - subtitle: title 밑에 뜨는 subtitle을 정해줄수 있다.
 - image: /path/to/image.png 를 써주면 제목 위에 조그만한 이미지가 뜨게된다.
 - bigimg: /path/to/big/img.png 를 써주면 제목이 들어가는 칸의 background 이미지로 사용된다.
-- tags: [books, test] 같은걸 지정해주면 나중에 tag 별로 작성한 포스트를 찾아
+- tags: [books, test] 같은걸 지정해주면 나중에 tag 별로 작성한 포스트를 찾아줄 수 있다. 
 
 ### Italics and Bold
 - Italics를 사용하고 싶으면 (_) 를 사용하면 된다.
