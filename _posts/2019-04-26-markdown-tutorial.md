@@ -11,13 +11,18 @@ image: /img/markdown.png
 - bigimg: /path/to/big/img.png 를 써주면 제목이 들어가는 칸의 background 이미지로 사용된다.
 - tags: [books, test] 같은걸 지정해주면 나중에 tag 별로 작성한 포스트를 찾아줄 수 있다. 
 
-### Italics and Bold
+### Emphasis
+#### Italics and Bold
 - Italics를 사용하고 싶으면 (_) 를 사용하면 된다.
   - Writing is _not_ hard
 - Bold를 사용하고 싶으면 두 개의 asterisks(**)로 단어를 surround 시켜주면 된다.
   - Writing is **not** hard
 - Bold와 Italics를 동시에 주고싶다면 **_ 단어 _** 를 사용해주면 된다.
   - Writing is **_not_** hard
+
+#### Scratch
+문장에서 어떤 부분을 고친 걸 티내고 싶다면 scratch 방식을 사용하면 된다.두 개의 물결 ~ 을 사용해주면 된다.
+ ~~Scratch this.~~
 
 ### Headers
 Header는 #를 사용해주면 된다.
@@ -59,7 +64,8 @@ list에도 두 가지 종류가 존재한다: unordered와 ordered. 이걸 다�
 
 ### Paragraph
 Markdown에서 paragraph를 만드는건 그냥 text editor같이 줄을 바꿔서 새로운 문장을 쓰는 것이랑은 다르다.
-그렇다고해서 매번 새로운 줄을 중간마다 삽입해서 또 paragraph를 만들자니 보기도 이상하고.. 이렇게 강제로 paragraph를 만드는걸 _hard break_라고 부른다. 하지만 우리가 원하는건 _soft break_! _soft break_는 그냥 키보드의 space를 눌러줘서 paragraph를 만드는 방식. 사실 이것도 난 무식한 방식이라 본다. 좀 더 손쉽고 무식하지 않은 방법이 있을 것 같기도한대....
+그렇다고해서 매번 새로운 줄을 중간마다 삽입해서 또 paragraph를 만들자니 보기도 이상하고.. 
+이렇게 강제로 paragraph를 만드는걸 _hard break_ 라고 부른다. 하지만 우리가 원하는건 _soft break_ ! _soft break_ 는 그냥 키보드의 space를 눌러줘서 paragraph를 만드는 방식. 사실 이것도 난 무식한 방식이라 본다. 좀 더 손쉽고 무식하지 않은 방법이 있을 것 같기도한대....
 
 Markdown에 대해 더 알고싶으면 다음 링크에서 알아보면 된다
 - [http://en.wikipedia.org/wiki/Markdown#Example](http://en.wikipedia.org/wiki/Markdown#Example)
