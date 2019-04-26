@@ -20,9 +20,9 @@ Header는 #를 사용해주면 된다.
 기본적으로 두 가지의 link가 존재한다.
 1. _inline link_
   - 링크를 걸고 싶은 단어에 bracket ([ ])을 쳐주고 그 다음 paranthesis ( )로 링크를 wrap 시켜준다. 
-    - [Visit Github](www.github.com)
+    - [Visit Github](https://www.github.com)
   - 링크를 걸고 싶은 단어에 emphasis를 bold를 사용해 줄 수 있다.
-    - [Visit **Github**](www.github.com)
+    - [Visit **Github**](https://www.github.com)
     
 2. _reference link_
 이름이 말해주는 것처럼 다른 장소에 있는 document등을 reference삼고 싶을때 사용할 수 있다.
@@ -30,9 +30,9 @@ Do you want to see [something fun][fun place]?
 
 Here is [the website for you][another fun place]!
 
-[fun place]: www.github.com
+[fun place]: https://www.github.com
 
-[another fun place]: www.google.com
+[another fun place]: https://www.google.com
 
 ### Images
 이미지를 만드는것도 링크랑 동일하게 두가지의 방법이 있다. 링크랑 다른점은 느낌표[!] 를 bracket ([ ])으로 wrap해줄 단어앞에 사용해 준다는것이다
@@ -54,9 +54,9 @@ Markdown에서 paragraph를 만드는건 그냥 text editor같이 줄을 바꿔�
 그렇다고해서 매번 새로운 줄을 중간마다 삽입해서 또 paragraph를 만들자니 보기도 이상하고.. 이렇게 강제로 paragraph를 만드는걸 _hard break_라고 부른다. 하지만 우리가 원하는건 _soft break_! _soft break_는 그냥 키보드의 space를 눌러줘서 paragraph를 만드는 방식. 사실 이것도 난 무식한 방식이라 본다. 좀 더 손쉽고 무식하지 않은 방법이 있을 것 같기도한대....
 
 Markdown에 대해 더 알고싶으면 다음 링크에서 알아보면 된다
-- http://en.wikipedia.org/wiki/Markdown#Example
-- http://spec.commonmark.org/dingus/
-- http://johnmacfarlane.net/babelmark2/faq.html
-- http://idratherbewriting.com/2013/06/04/exploring-markdown-in-collaborative-authoring-to-publishing-workflows/
-- https://www.markdownguide.org
+- [http://en.wikipedia.org/wiki/Markdown#Example](http://en.wikipedia.org/wiki/Markdown#Example)
+- [http://spec.commonmark.org/dingus/](http://spec.commonmark.org/dingus/)
+- [http://johnmacfarlane.net/babelmark2/faq.html](http://johnmacfarlane.net/babelmark2/faq.html)
+- [http://idratherbewriting.com/2013/06/04/exploring-markdown-in-collaborative-authoring-to-publishing-workflows/](http://idratherbewriting.com/2013/06/04/exploring-markdown-in-collaborative-authoring-to-publishing-workflows/)
+- [https://www.markdownguide.org](https://www.markdownguide.org)
 
