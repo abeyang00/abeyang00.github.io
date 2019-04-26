@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Abe's cyber post-it
+title: Abe Yang
 
 # Short description of your site
 description: 지극히 개인적인 메모장
@@ -24,7 +24,7 @@ description: 지극히 개인적인 메모장
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Posts: "blog/tag/"
  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
  #   - Learn markdown: "http://www.markdowntutorial.com/"
  #   - GitHub Pages: "https://pages.github.com/"
@@ -36,7 +36,7 @@ avatar: "/img/bio-photo.PNG"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/img/alcohol.jpg"
+# title-img: "/img/alcohol.jpg"
 
 # --- Background colour/image options --- #
 
