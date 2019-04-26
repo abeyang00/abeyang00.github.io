@@ -21,7 +21,7 @@ Header는 #를 사용해주면 된다.
 
 기본적으로 두 가지의 link가 존재한다.
 1. _inline link_
-  - 링크를 걸고 싶은 단어에 bracket ([])을 쳐주고 그 다음 paranthesis로 링크를 wrap 시켜준다. 
+  - 링크를 걸고 싶은 단어에 bracket ([ ])을 쳐주고 그 다음 paranthesis ( )로 링크를 wrap 시켜준다. 
     - [Visit Github](www.github.com)
   - 링크를 걸고 싶은 단어에 emphasis를 bold를 사용해 줄 수 있다.
     - [Visit **Github**](www.github.com)
@@ -40,5 +40,17 @@ Here is [the website for you][another fun place]!
 
 이미지를 만드는것도 링크랑 동일하게 두가지의 방법이 있다. 링크랑 다른점은 느낌표[!] 를 bracket ([ ])으로 wrap해줄 단어앞에 사용해 준다는것이다
 1. _inline image link_
-  - ![이미지를 설명하는 단어](이미지가 
-  - ![A representation of Octdrey Catburn](https://octodex.github.com/images/bannekat.png)
+  - ![이미지를 설명하는 단어](이미지가 있는 링크)
+![A representation of Octdrey Catburn](https://octodex.github.com/images/bannekat.png)
+
+### Blockquotes
+### Lists
+### Paragraphs
+
+Markdown에 대해 더 알고싶으면 다음 링크에서 알아보면 된다
+- http://en.wikipedia.org/wiki/Markdown#Example
+- http://spec.commonmark.org/dingus/
+- http://johnmacfarlane.net/babelmark2/faq.html
+- http://idratherbewriting.com/2013/06/04/exploring-markdown-in-collaborative-authoring-to-publishing-workflows/
+- https://www.markdownguide.org
+
