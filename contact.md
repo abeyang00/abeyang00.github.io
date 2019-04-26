@@ -24,7 +24,7 @@ title:
         </div>
 
         <div>
-          <input type="submit" class="btn btn-primary" value="Gönder">
+          <input type="submit" class="btn btn-primary" value="Send">
         </div>
       </form>
     </div>
