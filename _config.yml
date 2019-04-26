@@ -24,7 +24,7 @@ description: 지극히 개인적인 메모장
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Posts: "tag"
+  Posts: "tags"
   Contact: "contact"
  #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
  #   - Learn markdown: "http://www.markdowntutorial.com/"
