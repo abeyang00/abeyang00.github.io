@@ -4,6 +4,12 @@ title: Markdown을 사용할 때 필요한 최소한의 지식
 image: /img/markdown.png
 ---
 
+맨처음 .md파일로 포스트를 할때는 위에 layout, title등을 정해줄 수 있다.
+
+image: /path/to/image.png 를 써주면 제목 위에 조그만한 이미지가 뜨게된다
+bigimg: /path/to/big/img.png 를 써주면 제목이 들어가는 칸의 background 이미지로 사용된다
+tags: [books, test] 같은걸 지정해주면 나중에 tag 별로 
+
 ### Italics and Bold
 - Italics를 사용하고 싶으면 (_) 를 사용하면 된다.
   - Writing is _not_ hard
