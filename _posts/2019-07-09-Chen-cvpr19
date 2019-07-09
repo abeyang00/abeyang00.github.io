@@ -20,9 +20,21 @@ Semantic segmentation branch에서 나온 결과를 토대로 semantic understan
 좀  더 자세히 알아보자.
 
 ## Intro
+저자가 reference로 삼는 논문은 [Monodepth](https://)이라고 하는 Godard라는 저자가 2017년 cvpr에 작성했던 논문이다. Monodepth의 기본적인 아이디어는 
+전 포스트 중에 있으니 그걸 참고하길 바란다. 이 논문에서 말하는 Monodepth의 가장 큰 문제점은 하나의 이미지로 stereo view에 대한 disparity를 예측하는건 
+'mismatching'이라는 문제점을 초래한다고한다. 만약 stereo pair에서 왼쪽 이미지를 기반으로 왼쪽과 오른쪽 view에 대한 disparity 들을 둘다 예측하게 training을 시킨다면,
+inference 단계에서는 오른쪽 view의 structure 정보를 잘 모르기 때문에 부정확한 결과값이 나올 가능성이 크다는 것이다.
 
-monoResMatch의 architecture는 다음과 같다.
+그래서 이러한 부정확성을 여기 SceneNet에서는 밑에 보이는 사진에서와 같이 scene understanding branch를 추가해줌으로써 해결하고자한다. 
 <img src="https://github.com/abeyang00/abeyang00.github.io/blob/master/assets/img/monoResMatch_architecture.png">
+SceneNet은 기본적인 encoder-decoder 기반의 network이다. Input으로 들어오는 이미지를 encoder를 통해 representations으로 인코딩해주고 decoder를 통해
+depth 아니면 segmentation 결과를 구할 수 있게 된다. Decoder를 multi-task classifier라고 볼수 있지만 두 다른 task에 대한 paramemter들은 공유한다. 
+논문에서는 'Decoder acts as a multi-task yet shared classifier that transforms scene representation into the prediction of depth or segmentation'이라고 설명한다.
+
+나중에 설명을 다시 하겠지만 이렇게 'multi-task yet shared classifier'는 task identity라는 mechanism 을 조건으로 만들어진다. 그래서 결과적으로 
+SceneNet은 depth와 segmentation를 bonding하는 cross-modal network model이라고 볼수 있다. 
+
+
 
 
 
